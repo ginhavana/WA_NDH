@@ -83,9 +83,9 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 * play.workadventu.re: https://play.workadventu.re/_/global/ginhavana.github.io/Workadventure_Campus_NDH/Workadventure-Campus-NDH-WA-Server/Campus_NDH.json
 
 ### 2. Product: 
-* WA selfhosted server on VM via "sudo ssh root@109.73.30.34 -p 22010 -i id_workadventureVM -L  80:127.0.0.1:80"
 * Require SSH Public Key from customers to allow access.
-* After gaining access, browse to http://play.workadventure.localhost/_/global/maps.workadventure.localhost/ndh/Campus_NDH.json
+* After gaining access, WA selfhosted server on VM via "sudo ssh root@109.73.30.34 -p 22010 -i id_workadventureVM -L  80:127.0.0.1:80"
+* Browse to http://play.workadventure.localhost/_/global/maps.workadventure.localhost/ndh/Campus_NDH.json
 
 ### 3. Difficulties and problems during work:
 1. Maps are formed by several layers, thus sometimes they don't work correctly and need to be rechecked few times.
