@@ -78,13 +78,13 @@ After watching some basic Youtube videos about creating maps on Tiled, I have fi
 - Campus Library (32x32)
 <img src="https://user-images.githubusercontent.com/66717834/149056712-97879e8e-86f9-4455-a7a2-e1c78a0920bf.png" alt="Bibo">
 
-- Campus Mensa (32x32)
-<img src="https://user-images.githubusercontent.com/66717834/149056712-97879e8e-86f9-4455-a7a2-e1c78a0920bf.png" alt="Bibo">
+- Campus Mensa (39x35)
+<img src="https://user-images.githubusercontent.com/66717834/149299955-c82fc6f5-934b-4236-a981-699865c6ca81.png" alt="Mensa">
 
-- Campus Audimax (32x32)
-<img src="https://user-images.githubusercontent.com/66717834/149056712-97879e8e-86f9-4455-a7a2-e1c78a0920bf.png" alt="Bibo">
+- Campus Audimax (40x25)
+<img src="https://user-images.githubusercontent.com/66717834/149299745-3b0d5dff-dfdc-40a0-a475-05855f781939.png" alt="Audimax">
 
-- Campus Seminar (32x32)
-<img src="https://user-images.githubusercontent.com/66717834/149056712-97879e8e-86f9-4455-a7a2-e1c78a0920bf.png" alt="Bibo">
+- Campus Seminar (31x25)
+<img src="https://user-images.githubusercontent.com/66717834/149300093-bcaeda90-22e2-498e-830b-abb5adaf5381.png" alt="Seminar">
 
 
