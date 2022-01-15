@@ -53,6 +53,7 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 
 ## Instruction:
 ### 1. Software systems:
+* Github repository: https://github.com/ginhavana/WA_NDH
 * Tiled editor
 * "map starter kit" provided by workadventu.re that contains default tileset for building maps
 * additional tilesets on google per topics
@@ -73,18 +74,26 @@ These tools are for hosting and launching private server.
 #### 1. Custom map:
 After watching some basic Youtube videos about creating maps on Tiled, I have finished drafting out 5 maps that can be linked to each other. These maps are:
 - Campus yard (49x46)
-<img src="https://user-images.githubusercontent.com/66717834/149056247-c36a3d8f-ee86-4c53-82f3-2037fcc0b020.png" alt="Campus">
-
+<img src="https://user-images.githubusercontent.com/66717834/149626265-9ff9a358-dd47-45a5-85a9-f605db66499a.png" alt="Campus" width="600px">
 - Campus Library (32x32)
-<img src="https://user-images.githubusercontent.com/66717834/149056712-97879e8e-86f9-4455-a7a2-e1c78a0920bf.png" alt="Bibo">
-
+<img src="https://user-images.githubusercontent.com/66717834/149626294-262942d8-684f-4d3c-beff-9d7ce0c300db.png" alt="Bibo" width="600px">
 - Campus Mensa (39x35)
-<img src="https://user-images.githubusercontent.com/66717834/149299955-c82fc6f5-934b-4236-a981-699865c6ca81.png" alt="Mensa">
-
+<img src="https://user-images.githubusercontent.com/66717834/149626296-a9786eb9-61b3-4065-91c9-ac2002be3654.png" alt="Mensa" width="600px">
 - Campus Audimax (40x25)
-<img src="https://user-images.githubusercontent.com/66717834/149299745-3b0d5dff-dfdc-40a0-a475-05855f781939.png" alt="Audimax">
-
+<img src="https://user-images.githubusercontent.com/66717834/149626297-a1ce6611-b581-49bc-b4df-f5bcbacc012b.png" alt="Audimax" width="600px">
 - Campus Seminar (31x25)
-<img src="https://user-images.githubusercontent.com/66717834/149300093-bcaeda90-22e2-498e-830b-abb5adaf5381.png" alt="Seminar">
+<img src="https://user-images.githubusercontent.com/66717834/149626300-a3807a1d-2b2a-41d8-b38a-be248f815cee.png" alt="Seminar" width="600px">
 
+- Detail information following the tutorials:
+  * There is always 'floorLayer' above every other layer for each maps to display 'characters' or 'avatars'.
+  * If there is a layer above 'floorLayer', it is named 'override' and only contains objectives like doors ceiling or objectives ceilings.
+  * Every maps, or 'rooms' will have serveral jitsi areas, or instances, embed with jitsi URL for different video conferences. For this purpose this specific tile <img src="https://user-images.githubusercontent.com/66717834/149628894-2a4162dd-fa1d-41e1-88a5-d6fd442d5dea.png" alt="jitsi"> is used with properties 'jitsiURL = meet.jit.si' and 'jitsiRoom = <room name>'
+  * There are always at least one exit point to other maps and one 'start' aka. entry point from other maps.
+  * For the general Campus Yard map, there is one specific entry area for first time loading.
+  * There is always a 'collide' layer below every other layer to make that position uncrossable, e.g. walls, tables, hard objectives, etc. For this purpose this specific tile ![collide](https://user-images.githubusercontent.com/66717834/149629094-2a01ab10-fb26-4257-8052-20db3b2275ef.png) is used to set property 'collides = true'.
 
+  * Example:
+    <img src="https://user-images.githubusercontent.com/66717834/149627746-2d406869-5a54-4872-9a98-a9427e54b00f.png" alt="Properties_campus" width="400px">
+    
+#### 2. Workadventure on localhost and on play.workadventu.re server:
+1.
