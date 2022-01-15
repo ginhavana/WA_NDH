@@ -53,7 +53,8 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 
 ## Instruction:
 ### 1. Software systems:
-* Github repository: https://github.com/ginhavana/WA_NDH
+* Github repository for WA server test: https://github.com/ginhavana/workadventure/tree/gh-pages
+* Github repository for own server host: https://github.com/ginhavana/WA_NDH
 * Tiled editor
 * "map starter kit" provided by workadventu.re that contains default tileset for building maps
 * additional tilesets on google per topics
@@ -62,6 +63,7 @@ For this project and following the instruction, Tiled editor along with 'map sta
 [^2]:[WA Tutorial](https://workadventu.re/map-building/)
 * a web-server: Github static page
 * Node.js
+* Basic knowledge for HTML and Javascript
 
 These 2 tools are used for launching and testing custom map.
 
@@ -73,16 +75,16 @@ These tools are for hosting and launching private server.
 ### 2. Related work:
 #### 1. Custom map:
 After watching some basic Youtube videos about creating maps on Tiled, I have finished drafting out 5 maps that can be linked to each other. These maps are:
-- Campus yard (49x46)
-<img src="https://user-images.githubusercontent.com/66717834/149626265-9ff9a358-dd47-45a5-85a9-f605db66499a.png" alt="Campus" width="600px">
-- Campus Library (32x32)
-<img src="https://user-images.githubusercontent.com/66717834/149626294-262942d8-684f-4d3c-beff-9d7ce0c300db.png" alt="Bibo" width="600px">
-- Campus Mensa (39x35)
-<img src="https://user-images.githubusercontent.com/66717834/149626296-a9786eb9-61b3-4065-91c9-ac2002be3654.png" alt="Mensa" width="600px">
-- Campus Audimax (40x25)
-<img src="https://user-images.githubusercontent.com/66717834/149626297-a1ce6611-b581-49bc-b4df-f5bcbacc012b.png" alt="Audimax" width="600px">
-- Campus Seminar (31x25)
-<img src="https://user-images.githubusercontent.com/66717834/149626300-a3807a1d-2b2a-41d8-b38a-be248f815cee.png" alt="Seminar" width="600px">
+1. Campus yard (49x46)  
+<img src="https://user-images.githubusercontent.com/66717834/149632252-35938672-200f-4d63-bde2-a31b8d696036.png" alt="Campus" width="800px">
+2. Campus Library (32x32)  
+<img src="https://user-images.githubusercontent.com/66717834/149632343-f0965359-d4ea-454c-9613-fa6b20df2ab8.png" alt="Bibo" width="600px">
+3. Campus Mensa (39x35)  
+<img src="(https://user-images.githubusercontent.com/66717834/149632353-3b4ae50c-f5a4-4516-aa05-7bce80da8545.png" alt="Mensa" width="600px">
+4. Campus Audimax (40x25)
+<img src="https://user-images.githubusercontent.com/66717834/149632366-4331da9f-16a3-4658-9685-16b138a182b2.png" alt="Audimax" width="600px">
+5. Campus Seminar (31x25)  
+<img src="https://user-images.githubusercontent.com/66717834/149632357-28e3a760-425e-4c76-af00-c02dc34abbb1.png" alt="Seminar" width="600px">
 
 - Detail information following the tutorials:
   * There is always 'floorLayer' above every other layer for each maps to display 'characters' or 'avatars'.
@@ -93,7 +95,63 @@ After watching some basic Youtube videos about creating maps on Tiled, I have fi
   * There is always a 'collide' layer below every other layer to make that position uncrossable, e.g. walls, tables, hard objectives, etc. For this purpose this specific tile ![collide](https://user-images.githubusercontent.com/66717834/149629094-2a01ab10-fb26-4257-8052-20db3b2275ef.png) is used to set property 'collides = true'.
 
   * Example:
-    <img src="https://user-images.githubusercontent.com/66717834/149627746-2d406869-5a54-4872-9a98-a9427e54b00f.png" alt="Properties_campus" width="400px">
+    <img src="https://user-images.githubusercontent.com/66717834/149627746-2d406869-5a54-4872-9a98-a9427e54b00f.png" alt="Properties_campus" width="350px">
     
 #### 2. Workadventure on localhost and on play.workadventu.re server:
-1.
+1. Testing on WA server:
+After finishing customizing maps, all maps and related files will be uploaded to a Github repository for storing. Following the instruction provided by WA, their Github repo for map starter kit is cloned and all maps and related file are uploaded to 'gh-page' branch. Since the start map is not map.js as provided in WA repo, there must be a small adjustment in **index.html** file
+    
+| Line | Original code | Replace code |
+| - | - | - |
+| 21 | const url = 'https://play.workadventu.re/_/${instanceId}/${host}${path}map.json' | const url = 'https://play.workadventu.re/_/${instanceId}/${host}${path}Campus_NDH.json'; |
+| 26 | const mapUrl = window.location.protocol+'//'+window.location.host+path+'map.json'; | const mapUrl = window.location.protocol+'//'+window.location.host+path+'Campus_NDH.json'; |
+   
+<img src="https://user-images.githubusercontent.com/66717834/149631636-43492e14-bbed-4036-a1ce-5d141a41908c.png" alt="index" width="700px"> 
+
+Then go to **Setting** in the tools tab, go to **Pages** and change source from `root` to `docs` and press **Save**. There is a notice direct to the test web UI which has form **<username>.github.io.<repo-name>**.  
+<img src="https://user-images.githubusercontent.com/66717834/149631719-99989069-91a3-453a-9e6d-961c7b714070.png" alt="githubtut" width="500px">
+    
+The web UI looks something like this  
+<img src="https://user-images.githubusercontent.com/66717834/149631915-8623b31b-2ad1-41a6-a364-867977ad1df0.png" alt="testui" width="500px">
+
+After clicking the link, it's time to explore!
+2. Testing on local host:
+Can perform as above, but instead of using github as webpage to launch the map, this time the map is hosted right on personal computer. Simply by downloading Node.js, redirect commandline to the directory that stores the maps and run `npm install` and `npm run start`, a web browser will be opened and look something like this
+<img src="https://user-images.githubusercontent.com/66717834/149632688-4aeac996-3057-40f2-9655-b56ad7086d62.png" alt="local" width="800px">
+
+#### 3. Workadventure hosted on a virtual machine (private self-host): Editing
+
+## Consclusion: (Editing)
+### 1. Link to WA provided server:
+* 
+
+### 2. Product: 
+* Require SSH Public Key from customers to allow access.
+* After gaining access, WA selfhosted server on VM via "sudo ssh root@109.73.30.34 -p 22010 -i id_workadventureVM -L  80:127.0.0.1:80"
+* Browse to http://play.workadventure.localhost/_/global/maps.workadventure.localhost/ndh/Campus_NDH.json
+
+### 3. Difficulties and problems during work:
+1. Maps are formed by several layers, thus sometimes they don't work correctly and need to be rechecked few times.
+2. Due to unfamilarity with Linux OS at first and VM, it required large amount of unnecessary deleting and recreating files and repos.
+3. Finding /etc/host in personal OS
+4. Required large amount of test to find working port, which should be default 8080
+
+### 4. Comparison between the result server and expectation:
+* The selfhosted WA server works properly. All functions have been tested.
+* The selfhosted WA server matches expectation.
+
+### 5. Conclusion about adventages and disadventages of WA:
+1. Advantages:
+* Listed advantages from Comparison part
+* Avatar Method is game-liked with characters movement, which means there is flexibility between conversations. Participants can choose and switch between different conversations or conferences in the same screen, thus reduce unnecessary tabs and reconnections, since technically all participants from different conversations are online at the same time, which will be determined by having their Avatar appear or not.
+* Large number of participants permitted, up to 60
+* Custom maps are compatible and servers can be free-charge self-hosted via VM.
+* Other communicating methods e.g. Jitsi is attachable to create large area of Meeting, in compare to given small private circle around characters
+
+2. Disadvantages:
+* Listed disadvantages from Comparison part
+* he UI lacks of complex configuration choices.
+* Chat is not included in Meeting or between individuals, there is only 1 general chat.
+
+### 6. Prognosis and expectation of further development
+In the past 2 years within the pandemic time, Video Conferencing has proven its promising ability to support human life. Workadventure, as 1 example method, delivers not only so, but also ensures maintaining human behavior of direct through indirect/distance contact. It is expected to be improved further in security and capacity yet still maintaining low memory cost for hosting discrete servers.
