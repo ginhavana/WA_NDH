@@ -1,11 +1,29 @@
 # Workadventure (Campus Nordhausen)
 
 ## Table of contents:
-1. Introduction
-2. something
-3. something
-4. something
-5. 
+1. Introduction:
+    1.1. Overview:
+    1.2. Goals:
+    1.3. 
+2. Main part:
+    2.1. Software System
+    2.2. Maps Customization
+    2.3. Maps validation with workadventure server
+    2.4. Configure private server with Virtual Machine
+    2.5. Maps validation with private server
+3. Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
 ## 1. Introduction:
 ### 1.1. Overview:
 Communication has always been one of the fundamental need of human being since the ability to talk and origin of language. Communication methods have also gone a long way from direct conversation, where individuals have to be in the same closed space, to long distance communication through long-waiting writing, to phone call, to sms, emails and voice mails that wait to be checked, to recently direct real-time back and forth chatting and calling with video, which also known as video call. The Internet development in the era has great impact on contributing to improve effectiveness of working, learning and social organizing, which includes distance communincation. Video Meeting (Conference) has been generally taken into account for years as a focused method of distance communication and particularly focused in the situation of Corona Pandemic, where people have to isolate themselves to stay and work at home (home office) most of the time. This project is a small research for one of the currently popular Video Conference (VC) method which is known for having features that bring day-life familiar experience to users and to find and show its advantages, disadvantages and using difficulty as a reference for anyone who has interest in it.
