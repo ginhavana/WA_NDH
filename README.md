@@ -20,6 +20,7 @@
 
 ## 1. Introduction:
 1.1. Overview:  
+
 1.2. Goals:  
 
 ## 2. Main part:
@@ -32,6 +33,9 @@
 2.4. Maps validation with private server  
 ## 3. Evaluation:
 3.1. Comparison between expectation and result  
+
 3.2. Difficulties and problems during work  
+
 3.3. Advantages and disadvantages  
+
 3.4. Expectation for further development
