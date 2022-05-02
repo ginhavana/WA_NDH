@@ -31,7 +31,7 @@
 
 **2.2. Map Customization**
  
-**2.3. Public and private map hosting (Beschreibung)**
+**2.3. Public and private map hosting**
 
 ## 3. Evaluation:
 **3.1. Maps validation with public server (workadventu.re server)**
