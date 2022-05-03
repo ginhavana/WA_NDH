@@ -2,19 +2,18 @@
 
 ## Table of contents:
 1. Introduction:  
-    1.1. Overview:  
-    1.2. Goals:  
+  1.1. Overview:  
+  1.2. Goals:  
 2. Workadventure for Campus Nordhausen:  
   2.1. Software System  
   2.2. Maps Customization  
-  2.3. Public and private map hosting (Beschreibung)
+  2.3. Public and private map hosting
 
 3. Evaluation (comments and reviews)  
-  3.1. Maps validation with public server (workadventu.re server)  
-  3.2. Maps validation with private server  
-      - 3.2.1. Maps validation with localhost  
-      - 3.2.2. Configure private server with Virtual Machine  
-      - 3.2.3. Maps validation with Virtual Machine  
+  3.1. Maps validation with public server (github server)  
+  3.2. Maps validation with private server    
+    - 3.2.1. Configure private server with Virtual Machine  
+    - 3.2.2. Maps validation with Virtual Machine  
 
 4. Summary and Conclusion  
   4.1. Summary of results  
@@ -57,12 +56,11 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 ### 2.3. Public and private map hosting
 
 ## 3. Evaluation:
-### 3.1. Maps validation with public server (workadventu.re server)
+### 3.1. Maps validation with public server (github server)
 
 ### 3.2. Maps validation with private server  
-**3.2.1. Maps validation with localhost**  
-**3.2.2. Configure private server with Virtual Machine**  
-**3.2.3. Maps validation with Virtual Machine**  
+**3.2.1. Configure private server with Virtual Machine**  
+**3.2.2. Maps validation with Virtual Machine**  
     
 
 ## 4. Summary and Conclusion  
