@@ -53,6 +53,10 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 Following the instruction of Workadventure Documentation, the [Tiled Editor](https://www.mapeditor.org/) software is the basic tool to create a custom map alongside with some different tilesets. WorkAdventure comes with a ["map starter kit"](https://github.com/thecodingmachine/workadventure-map-starter-kit) which contains a good default tileset for building an office and it proposes to use Github static pages as a public web-server which is both free and performant. It also comes with a local webserver for testing purpose and with Typescript support.
 A Virtual Machine provided by Thomas Hühn will be used for private hosting server. 
 ### 2.2. Map Customization
+After watching some basic Youtube videos about creating maps on Tiled, 5 maps with multiple layers have been drafted.  
+
+The first map is **Campus yard** map. It is planed to have 4 entrances to access to 4 different places  
+<img src="https://user-images.githubusercontent.com/66717834/167427269-38432496-7f84-46fe-901c-6a51fe8961c5.png" alt="Campus" width="500"/>
 
 ### 2.3. Public and private map hosting
 
