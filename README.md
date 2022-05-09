@@ -50,9 +50,10 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 
 ## 2. Workadventure for Campus Nordhausen:
 ### 2.1. Software System
-
+Following the instruction of Workadventure Documentation, the [Tiled Editor](https://www.mapeditor.org/) software is the basic tool to create a custom map alongside with some different tilesets. WorkAdventure comes with a ["map starter kit"](https://github.com/thecodingmachine/workadventure-map-starter-kit) which contains a good default tileset for building an office and it proposes to use Github static pages as a public web-server which is both free and performant. It also comes with a local webserver for testing purpose and with Typescript support.
+A Virtual Machine provided by Thomas Hühn will be used for private hosting server. 
 ### 2.2. Map Customization
- 
+
 ### 2.3. Public and private map hosting
 
 ## 3. Evaluation:
