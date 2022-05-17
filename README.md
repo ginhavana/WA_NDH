@@ -53,10 +53,21 @@ Although Gather Town is similar to Workadventure, the only upside GT has is Chat
 Following the instruction of Workadventure Documentation, the [Tiled Editor](https://www.mapeditor.org/) software is the basic tool to create a custom map alongside with some different tilesets. WorkAdventure comes with a ["map starter kit"](https://github.com/thecodingmachine/workadventure-map-starter-kit) which contains a good default tileset for building an office and it proposes to use Github static pages as a public web-server which is both free and performant. It also comes with a local webserver for testing purpose and with Typescript support.
 A Virtual Machine provided by Thomas Hühn will be used for private hosting server. 
 ### 2.2. Map Customization
-Learning how to create map on Tiled and reading some basic rules for custom maps from [Workadventure Documentary](https://workadventu.re/map-building/) are mandatory.
+Learning how to create map on Tiled and reading some basic rules for custom maps from [Workadventure Documentation](https://workadventu.re/map-building/) are mandatory.
 From that 5 maps with multiple layers that have access to each other are drafted.
-The first map is **Campus yard** map. It is planed to have 4 entrances to access to 4 different places  
+
+The first map is **Campus yard** map. It is planed to have 4 entrances to access to 4 different places which are (2) **Library**, (3) **Mensa**, (4) **Audimax** and (5) a **Seminar**.  
 <img src="https://user-images.githubusercontent.com/66717834/167427269-38432496-7f84-46fe-901c-6a51fe8961c5.png" alt="Campus" width="500"/>
+
+With this map, I have 12 layers drafted, which are, from above to below  
+
+***Photo goes here***
+
+As mention in the Documentation, there muss be an above overall object layer named "floorLayer" to represent the Avatar instance of users, where the "override" layer above it normally contains all the roofs of objects that are above our head. For "object", "building" and "ground" layers I use some additional tilesets to decorate. There are some jitsi instances (layers) around the staircase in the middle of the map which connect to a jitsi room by these properties
+
+***Photo goes here***
+
+There are 4 exit points and entry points to the other 4 maps so there should be also 4 pairs of "exitTo..." layer (identified by ) and "startFrom..." layer
 
 ### 2.3. Public and private map hosting
 
