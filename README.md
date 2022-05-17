@@ -45,8 +45,8 @@ In comparison between these methods, there are some important properties that he
 | ability to mute all participants|no|***no***|no|yes|yes|yes|
 
 ### 1.2. Goals: 
-The goal of this project is a small research for one of the currently popular Video Conference (VC) method, which is known for having features that bring day-life familiar experience to users, to find and show its advantages, disadvantages and using difficulty.
-Although Gather Town is similar to Workadventure, the only upside GT has is Chat in Meeting, which is sometimes unnecessary since it's voice and video communication. WA also has larger number of paticipants. In comparison with Wonder Me, WA has better outlook with custom maps and humanlike Avatar, while Avatar in Wonder Me are only circles moving around in a blank space, which reduce load memory so that it has up to 1500 paricipant but then lack of characteristic to identify individuals, which is an important behavior of human that this project also want to focus on. Hence Workadventure is the choice for this project.
+The goal of this project is a small research of Workadventure, one of the currently popular Video Conference (VC) method, which is known for having features that bring day-life familiar experience to users, to find and show its advantages, disadvantages and using difficulty.
+Although Gather Town (GT) is similar to Workadventure (WA), the only upside GT has is Chat in Meeting, which is sometimes unnecessary since it's voice and video communication. WA also has larger number of paticipants. In comparison with Wonder Me, WA has better outlook with custom maps and humanlike Avatar, while Avatar in Wonder Me are only circles moving around in a blank space, which reduce load memory so that it has up to 1500 paricipant but then lack of characteristic to identify individuals, which is an important behavior of human that this project also want to focus on. Hence Workadventure is the choice for this project.
 
 ## 2. Workadventure for Campus Nordhausen:
 ### 2.1. Software System
