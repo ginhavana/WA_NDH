@@ -12,7 +12,9 @@
     - 2.2.3. Mensa map
     - 2.2.4. Audimax map
     - 2.2.5. Seminar map  
-  2.3. Public and private map hosting
+  2.3. Public and private map hosting  
+    - 2.3.1. Public hosting
+    - 2.3.2. Private hosting
 3. Evaluation (comments and reviews)  
   3.1. Maps validation with public server (github server)  
   3.2. Maps validation with private server  
@@ -126,9 +128,9 @@ The third map, whose entrance is at the top right of Campus map, is **Seminar** 
 The Seminar map is basically a smaller Audimax.
 
 ### 2.3. Public and private map hosting
+#### 2.3.1. Public hosting
 
-
-
+#### 2.3.2. Private hosting
 ## 3. Evaluation:
 ### 3.1. Maps validation with public server (github server)
 
