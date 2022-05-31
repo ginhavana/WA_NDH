@@ -98,7 +98,10 @@ The "start" layer beneath almost every layers is used for initializing users' Av
 The "collide" layer at the bottom is used for representing all unpassable obstacles such as hard objects or boulders. It is identified by <img src="https://user-images.githubusercontent.com/66717834/170040875-95ff83cf-5d59-4156-be02-15b6ac7b3137.png" alt="collide-Instance" width="40px">
 
 #### 2.2.2. Library map
-The second map, whose entrance is located at the bottom of Campus map, is **Library** map.
+The second map, whose entrance is located at the bottom of Campus map, is **Library** map
+
+![Bibo](https://user-images.githubusercontent.com/66717834/171137868-d4fd9174-9c67-4fc3-b8ff-8aa0684e340a.png)
+
 ### 2.3. Public and private map hosting
 
 ## 3. Evaluation:
