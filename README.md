@@ -8,10 +8,10 @@
   2.1. Software System  
   2.2. Maps Customization  
     - 2.2.1. Campus map
-    - 2.2.1. Library map
-    - 2.2.1. Campus map
-    - 2.2.1. Campus map
-    - 2.2.1. Campus map
+    - 2.2.2. Library map
+    - 2.2.3. Mensa map
+    - 2.2.4. Audimax map
+    - 2.2.5. Seminar map
   2.3. Public and private map hosting
 
 3. Evaluation (comments and reviews)  
