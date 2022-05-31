@@ -5,14 +5,14 @@
   1.1. Overview:  
   1.2. Goals:  
 2. Workadventure for Campus Nordhausen:  
-2.1. Software System  
-2.2. Maps Customization  
+  2.1. Software System  
+  2.2. Maps Customization  
     - 2.2.1. Campus map
     - 2.2.2. Library map
     - 2.2.3. Mensa map
     - 2.2.4. Audimax map
     - 2.2.5. Seminar map  
-2.3. Public and private map hosting
+  2.3. Public and private map hosting
 3. Evaluation (comments and reviews)  
   3.1. Maps validation with public server (github server)  
   3.2. Maps validation with private server  
@@ -107,10 +107,27 @@ There are 3 separated Jitsi instances for 3 tables in reception section and 3 Ji
 #### 2.2.3. Mensa map
 The third map, whose entrance is at the top left of Campus map, is **Mensa** map
 
-<img src="https://user-images.githubusercontent.com/66717834/171274302-562fd6f1-caff-4ca0-9028-13a0212a9024.png" alt="Mensa" width="500">
+<img src="https://user-images.githubusercontent.com/66717834/171282241-86ab3acc-6aeb-445e-bbbf-9054673320f2.png" alt="Mensa" width="500">
 
+This map contains a lot of small tables, for each a corresponding Jitsi instance is given.
+
+#### 2.2.4. Audimax map
+The forth map, whose entrance is next to Mensa entrance, is **Audimax** map
+
+<img src="https://user-images.githubusercontent.com/66717834/171282241-86ab3acc-6aeb-445e-bbbf-9054673320f2.png" alt="Audimax" width="500">
+
+This whole map has the same Jitsi instance because it is required that all users in the room listen to the moderator on the stage section.
+
+#### 2.2.5. Seminar map
+The third map, whose entrance is at the top right of Campus map, is **Seminar** map
+
+<img src="https://user-images.githubusercontent.com/66717834/171282764-abfb2b33-58df-4943-a054-2d7caac04819.png" alt="Seminar" width="500">
+
+The Seminar map is basically a smaller Audimax.
 
 ### 2.3. Public and private map hosting
+
+
 
 ## 3. Evaluation:
 ### 3.1. Maps validation with public server (github server)
@@ -118,7 +135,6 @@ The third map, whose entrance is at the top left of Campus map, is **Mensa** map
 ### 3.2. Maps validation with private server  
 #### 3.2.1. Configure private server with Virtual Machine**  
 #### 3.2.2. Maps validation with Virtual Machine**  
-    
 
 ## 4. Summary and Conclusion  
 ### 4.1. Summary of results
