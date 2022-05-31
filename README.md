@@ -5,21 +5,19 @@
   1.1. Overview:  
   1.2. Goals:  
 2. Workadventure for Campus Nordhausen:  
-  2.1. Software System  
-  2.2. Maps Customization  
+2.1. Software System  
+2.2. Maps Customization  
     - 2.2.1. Campus map
     - 2.2.2. Library map
     - 2.2.3. Mensa map
     - 2.2.4. Audimax map
-    - 2.2.5. Seminar map
-  2.3. Public and private map hosting
-
+    - 2.2.5. Seminar map  
+2.3. Public and private map hosting
 3. Evaluation (comments and reviews)  
   3.1. Maps validation with public server (github server)  
   3.2. Maps validation with private server  
     - 3.2.1. Configure private server with Virtual Machine  
     - 3.2.2. Maps validation with Virtual Machine  
-
 4. Summary and Conclusion  
   4.1. Summary of results  
   4.2. Lessons learn  
