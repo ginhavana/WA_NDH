@@ -100,7 +100,7 @@ The "collide" layer at the bottom is used for representing all unpassable obstac
 #### 2.2.2. Library map
 The second map, whose entrance is located at the bottom of Campus map, is **Library** map
 
-![Bibo](https://user-images.githubusercontent.com/66717834/171137868-d4fd9174-9c67-4fc3-b8ff-8aa0684e340a.png)
+<img src="https://user-images.githubusercontent.com/66717834/171137868-d4fd9174-9c67-4fc3-b8ff-8aa0684e340a.png" alt="Library" width="500">
 
 ### 2.3. Public and private map hosting
 
@@ -111,7 +111,7 @@ The second map, whose entrance is located at the bottom of Campus map, is **Libr
 **3.2.1. Configure private server with Virtual Machine**  
 **3.2.2. Maps validation with Virtual Machine**  
     
-
+a
 ## 4. Summary and Conclusion  
 ### 4.1. Summary of results
 
