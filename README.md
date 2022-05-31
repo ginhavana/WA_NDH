@@ -94,11 +94,13 @@ and "startFrom..." layer (identified by <img src="https://user-images.githubuser
 
 The "start" layer beneath almost every layers is used for initializing users' Avatar the first time they load the program. It is identified by <img src="https://user-images.githubusercontent.com/66717834/170040029-ebedbece-2a94-4c89-a242-196bfa232774.png" alt="start" width="40px">
 The "collide" layer at the bottom is used for representing all unpassable obstacles such as hard objects or boulders. It is identified by <img src="https://user-images.githubusercontent.com/66717834/170040875-95ff83cf-5d59-4156-be02-15b6ac7b3137.png" alt="collide-Instance" width="40px">
+The start, exit, collide and jitsi instances are similar among all maps.
 
 #### 2.2.2. Library map
 The second map, whose entrance is located at the bottom of Campus map, is **Library** map
 
 <img src="https://user-images.githubusercontent.com/66717834/171138699-dbb3a062-5747-445d-ad4e-a76d9de443be.png" alt="Library" width="500">
+
 
 ### 2.3. Public and private map hosting
 
