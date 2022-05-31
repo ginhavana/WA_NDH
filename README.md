@@ -94,12 +94,20 @@ and "startFrom..." layer (identified by <img src="https://user-images.githubuser
 
 The "start" layer beneath almost every layers is used for initializing users' Avatar the first time they load the program. It is identified by <img src="https://user-images.githubusercontent.com/66717834/170040029-ebedbece-2a94-4c89-a242-196bfa232774.png" alt="start" width="40px">
 The "collide" layer at the bottom is used for representing all unpassable obstacles such as hard objects or boulders. It is identified by <img src="https://user-images.githubusercontent.com/66717834/170040875-95ff83cf-5d59-4156-be02-15b6ac7b3137.png" alt="collide-Instance" width="40px">
-The start, exit, collide and jitsi instances are similar among all maps.
+The start, exit, collide and Jitsi instances are similar among all maps.
 
 #### 2.2.2. Library map
-The second map, whose entrance is located at the bottom of Campus map, is **Library** map
+The second map, whose entrance is at the bottom of Campus map, is **Library** map
 
 <img src="https://user-images.githubusercontent.com/66717834/171138699-dbb3a062-5747-445d-ad4e-a76d9de443be.png" alt="Library" width="500">
+
+This map contains a locker room section below the entry point, a reception section above the entry point, a small toilet, some shelves along the hall way and a study section in the bottom of the map.
+There are 3 separated Jitsi instances for 3 tables in reception section and 3 Jitsi instances for 3 tables in the study section. All the furnitures and wall (black tiles) are designed with collide instances.
+
+#### 2.2.3. Mensa map
+The third map, whose entrance is at the top left of Campus map, is **Mensa** map
+
+<img src="https://user-images.githubusercontent.com/66717834/171274302-562fd6f1-caff-4ca0-9028-13a0212a9024.png" alt="Mensa" width="500">
 
 
 ### 2.3. Public and private map hosting
