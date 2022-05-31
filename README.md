@@ -1,10 +1,10 @@
 # Workadventure (Campus Nordhausen)
 
 ## Table of contents:
-1. Introduction:  
-  1.1. Overview:  
-  1.2. Goals:  
-2. Workadventure for Campus Nordhausen:  
+1. Introduction  
+  1.1. Overview  
+  1.2. Goals  
+2. Workadventure for Campus Nordhausen  
   2.1. Software System  
   2.2. Maps Customization  
     - 2.2.1. Campus map
@@ -25,8 +25,8 @@
   4.2. Lessons learn  
   4.3. Future development  
 
-## 1. Introduction:
-### 1.1. Overview:  
+## 1. Introduction
+### 1.1. Overview  
 Communication has always been one of the fundamental need of human being since the ability to talk and origin of language. Communication methods have also gone a long way from direct conversation, where individuals have to be in the same closed space, to long distance communication through long-waiting writing, to phone call, to sms, emails and voice mails that wait to be checked, to recently direct real-time back and forth chatting and calling with video, which also known as video call. The Internet development in this era has great impact on contributing to improve effectiveness of working, learning and social organizing, which includes distance communincation. Video Meeting (Conference) has been generally taken into account for years as a focused method of distance communication and particularly focused in the situation of Corona Pandemic, where people have to isolate themselves to stay and work at home (home office) most of the time. Here are quick summary of currently popular VC methods.
 
 There are two different current methods to form a Video Conference: 
@@ -49,11 +49,11 @@ In comparison between these methods, there are some important properties that he
 | background customize|no|***no***|no|no|yes|yes|
 | ability to mute all participants|no|***no***|no|yes|yes|yes|
 
-### 1.2. Goals: 
+### 1.2. Goals 
 The goal of this project is a small research of Workadventure, one of the currently popular Video Conference (VC) method, which is known for having features that bring day-life familiar experience to users, to find and show its advantages, disadvantages and using difficulty.
 Although Gather Town (GT) is similar to Workadventure (WA), the only upside GT has is Chat in Meeting, which is sometimes unnecessary since it's voice and video communication. WA also has larger number of paticipants. In comparison with Wonder Me, WA has better outlook with custom maps and humanlike Avatar, while Avatar in Wonder Me are only circles moving around in a blank space, which reduce load memory so that it has up to 1500 paricipant but then lack of characteristic to identify individuals, which is an important behavior of human that this project also want to focus on. Hence Workadventure is the choice for this project.
 
-## 2. Workadventure for Campus Nordhausen:
+## 2. Workadventure for Campus Nordhausen
 ### 2.1. Software System
 Following the instruction of Workadventure Documentation, the [Tiled Editor](https://www.mapeditor.org/) software is the basic tool to create a custom map alongside with some different tilesets. WorkAdventure comes with a ["map starter kit"](https://github.com/thecodingmachine/workadventure-map-starter-kit) which contains a good default tileset for building an office and it proposes to use Github static pages as a public web-server which is both free and performant. It also comes with a local webserver for testing purpose and with Typescript support.
 A Virtual Machine provided by Thomas Hühn will be used for private hosting server. For testing custom maps, it is required to have Windows Subsystem For Linux enabled and Ubuntu installed. It is also recommended to have basic knowledge about HTML and Javascript since maps are .json files, Linux commandlines and usage of Docker and Docker-compose
@@ -128,10 +128,11 @@ The third map, whose entrance is at the top right of Campus map, is **Seminar** 
 The Seminar map is basically a smaller Audimax.
 
 ### 2.3. Public and private map hosting
-#### 2.3.1. Public hosting
+#### 2.3.1. Public hosting with Github server
+
 
 #### 2.3.2. Private hosting
-## 3. Evaluation:
+## 3. Evaluation
 ### 3.1. Maps validation with public server (github server)
 
 ### 3.2. Maps validation with private server  
