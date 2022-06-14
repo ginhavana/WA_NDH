@@ -136,9 +136,24 @@ After finishing customizing maps, all maps and related files will be uploaded to
 | 22 | const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`; | cconst url = `https://play.workadventu.re/_/${instanceId}/${host}${path}Campus_NDH.json`; |
 | 27 | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json'; | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'Campus_NDH.json'; |
 
+Then go to **Setting** in the tools bar, go to **Pages** and change source from `root` to `docs` and press **Save**. There is a notice direct to the test web UI which has form **`<username>.github.io.<repo-name>`**.  
 
+<img src="https://user-images.githubusercontent.com/66717834/149631719-99989069-91a3-453a-9e6d-961c7b714070.png" alt="githubtut" width="500px">
+    
+The web UI looks something like this  
 
-#### 2.3.2. Private hosting
+<img src="https://user-images.githubusercontent.com/66717834/149631915-8623b31b-2ad1-41a6-a364-867977ad1df0.png" alt="testui" width="500px">
+
+After clicking the link, it's time to explore!  
+
+#### 2.3.2. Private hosting on Localhost  
+Instead of using github as webpage to launch the map, this time the map is hosted right on personal computer. Simply by downloading [Node.js](https://nodejs.org/en/), open Commandline or Powershell, redirect to the directory that stores the maps and run `npm install` and then `npm run start`, a web browser will be opened and look something like this
+
+<img src="https://user-images.githubusercontent.com/66717834/149632688-4aeac996-3057-40f2-9655-b56ad7086d62.png" alt="local" width="800px">
+
+#### 2.3.3. Private hosting with Virtual Machine server
+A Virtual Machine (VM) is provided by supervisor Thomas Hühn. The first step is to enable Windows Subsystem for Linux (WSL) since I'm using a PC that runs Windows OS and most of the tutorial for this methode are for Linux OS. WSL allows one to run a Linux command interface, my choice is Ubuntu, on Windows PC. Then I install Ubuntu from Microsoft Store, run it and follow the instruction to create a virtual account for Ubuntu. It is recommended to check and update Linux Kernel regularly.
+For accessing and communicating between personal PC and VM, I use [Secure Socket Shell network protocol (SSH)](https://www.keyfactor.com/blog/ssh-protocol/). The VM will work as a Client and my personal PC is server. The command to generate a SSH-Key pair is `ssh-keygen -t rsa -b 4096` with "-t" to set the type of key and "-b" to set the bit amount that the key contains. 
 ## 3. Evaluation
 ### 3.1. Maps validation with public server (github server)
 
