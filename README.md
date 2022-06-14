@@ -129,6 +129,13 @@ The Seminar map is basically a smaller Audimax.
 
 ### 2.3. Public and private map hosting
 #### 2.3.1. Public hosting with Github server
+After finishing customizing maps, all maps and related files will be uploaded to a Github repository for storing. Following the instruction provided by WA, their Github repo for map starter kit is cloned and all maps and related file are uploaded to 'gh-page' branch. Since the start map is not "map.js" as provided in WA repo, there must be a small adjustment in **index.html** file
+    
+| Line | Original code | Replace code |
+| - | - | - |
+| 22 | const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`; | cconst url = `https://play.workadventu.re/_/${instanceId}/${host}${path}Campus_NDH.json`; |
+| 27 | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json'; | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'Campus_NDH.json'; |
+
 
 
 #### 2.3.2. Private hosting
