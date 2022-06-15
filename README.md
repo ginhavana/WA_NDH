@@ -1,4 +1,5 @@
 # Workadventure (Campus Nordhausen)
+docker-compose pull
 
 ## Table of contents:
 1. Introduction  
