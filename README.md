@@ -1,5 +1,4 @@
 # Workadventure (Campus Nordhausen)
-docker-compose pull
 
 ## Table of contents:
 1. Introduction  
@@ -24,7 +23,7 @@ docker-compose pull
 4. Summary and Conclusion  
   4.1. Summary of results  
   4.2. Lessons learn  
-  4.3. Future development  
+  4.3. Future potential for development  
 
 ## 1. Introduction
 ### 1.1. Overview  
@@ -55,6 +54,8 @@ The goal of this project is a small research of Workadventure, one of the curren
 Although Gather Town (GT) is similar to Workadventure (WA), the only upside GT has is Chat in Meeting, which is sometimes unnecessary since it's voice and video communication. WA also has larger number of paticipants. In comparison with Wonder Me, WA has better outlook with custom maps and humanlike Avatar, while Avatar in Wonder Me are only circles moving around in a blank space, which reduce load memory so that it has up to 1500 paricipant but then lack of characteristic to identify individuals, which is an important behavior of human that this project also want to focus on. Hence Workadventure is the choice for this project.
 
 ## 2. Workadventure for Campus Nordhausen
+To achieve the goal, here is what I will do. First and for most, it is mandatory that I read through the documentation provided by Workadventure provider - The Coding Machine, along with watching some tutorial videos so that I will have some basic idea what I should do to custom a map and then host it. The next step is creating my own custom maps of choice. Then I will try to launch the map publically to see if it works and lastly I will try to host my custom maps on a private server.
+
 ### 2.1. Software System
 Following the instruction of Workadventure Documentation, the [Tiled Editor](https://www.mapeditor.org/) software is the basic tool to create a custom map alongside with some different tilesets. WorkAdventure comes with a ["map starter kit"](https://github.com/thecodingmachine/workadventure-map-starter-kit) which contains a good default tileset for building an office and it proposes to use Github static pages as a public web-server which is both free and performant. It also comes with a local webserver for testing purpose and with Typescript support.
 A Virtual Machine provided by Thomas Hühn will be used for private hosting server. For testing custom maps, it is required to have Windows Subsystem For Linux enabled and Ubuntu installed. It is also recommended to have basic knowledge about HTML and Javascript since maps are .json files, Linux commandlines and usage of Docker and Docker-compose
@@ -154,7 +155,9 @@ Instead of using github as webpage to launch the map, this time the map is hoste
 
 #### 2.3.3. Private hosting with Virtual Machine server
 A Virtual Machine (VM) is provided by supervisor Thomas Hühn. The first step is to enable Windows Subsystem for Linux (WSL) since I'm using a PC that runs Windows OS and most of the tutorial for this methode are for Linux OS. WSL allows one to run a Linux command interface, my choice is Ubuntu, on Windows PC. Then I install Ubuntu from Microsoft Store, run it and follow the instruction to create a virtual account for Ubuntu. It is recommended to check and update Linux Kernel regularly.
-For accessing and communicating between personal PC and VM, I use [Secure Socket Shell network protocol (SSH)](https://www.keyfactor.com/blog/ssh-protocol/). The VM will work as a Client and my personal PC is server. The command to generate a SSH-Key pair is `ssh-keygen -t rsa -b 4096` with "-t" to set the type of key and "-b" to set the bit amount that the key contains. 
+For accessing and communicating between personal PC and VM, I use [Secure Socket Shell network protocol (SSH)](https://www.keyfactor.com/blog/ssh-protocol/). The VM will work as a Client and my personal PC is server. The command to generate a SSH-Key pair is `ssh-keygen -t rsa -b 4096` with "-t" to set the type of key and "-b" to set the bit amount that the key contains. SSH Key pair contains 1 private key, which is saved on my PC as identifier for a connection request, and a public key that will be sent to either Thomas or Jonas, who managing and administrating the Virtual Machine, and saved there in an `authorized_keys` file which allows any connection request with the private key identify with saved public key is automatically allowed.
+After setting up a VM for me, Thomas informed me that the public ip address of the VM was `109.73.30.34` and later changed to `5.102.162.62` and the port number available for me to connect is 22010. The command to open a connection to VM is then `sudo ssh root@5.102.161.62 -p 20010 -i id_workadventureVM`.
+The (Workadventure Repo)[https://github.com/thecodingmachine/workadventure] is then cloned to the VM by `git clone https://github.com/thecodingmachine/workadventure.git`
 ## 3. Evaluation
 ### 3.1. Maps validation with public server (github server)
 
