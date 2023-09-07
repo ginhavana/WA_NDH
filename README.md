@@ -67,11 +67,11 @@ From that 5 maps with multiple layers that have access to each other are drafted
 The first map is **Campus yard** map. It is planed to have 4 entrances to access to 4 different places which are (2) **Library**, (3) **Mensa**, (4) **Audimax** and (5) a **Seminar**.  
 <img src="https://user-images.githubusercontent.com/66717834/167427269-38432496-7f84-46fe-901c-6a51fe8961c5.png" alt="Campus" width="500">
 
-With this map, I have 12 layers drafted, which are, from above to below  
+The map has 12 layers drafted, which are, from above to below  
 
 <img src="https://user-images.githubusercontent.com/66717834/170034123-110b7c08-f9f6-4a85-9819-d825aedeb520.png" alt="Campus-Layers">
 
-As mention in the Documentation, there muss be an above overall object layer named "floorLayer" to represent the Avatar instance of users, where the "override" layer above it normally contains all the roofs of objects that are above our head. For "object", "building" and "ground" layers I use some additional tilesets to decorate. There are some jitsi instances (layers) (identified by ![jitsi-Instance](https://user-images.githubusercontent.com/66717834/170035680-7e3a76b2-1825-459a-9897-f112e7725f22.png)) around the staircase in the middle of the map which connect to a jitsi room by these properties
+As mention in the Documentation, there muss be an above overall object layer named "floorLayer" to represent the Avatar instance of users, where the "override" layer above it normally contains all the roofs of objects that are above our head. For "object", "building" and "ground" layers, some additional tilesets are used to decorate. There are some jitsi instances (layers) (identified by ![jitsi-Instance](https://user-images.githubusercontent.com/66717834/170035680-7e3a76b2-1825-459a-9897-f112e7725f22.png)) around the staircase in the middle of the map which connect to a jitsi room by these properties
 
 <img src="https://user-images.githubusercontent.com/66717834/170034538-ef9e0db5-80ea-420d-a925-80f773354da7.png" alt="Campus-jitsi">
 
