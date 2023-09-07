@@ -18,8 +18,6 @@
 3. Evaluation (comments and reviews)  
   3.1. Maps validation with public server (github server)  
   3.2. Maps validation with private server  
-    - 3.2.1. Configure private server with Virtual Machine  
-    - 3.2.2. Maps validation with Virtual Machine  
 4. Summary and Conclusion  
   4.1. Summary of results  
   4.2. Lessons learn  
