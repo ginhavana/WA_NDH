@@ -166,19 +166,28 @@ The next step is installing Ubuntu from Microsoft Store, run it and follow the i
 After setting up a VM, the public ip address of the VM is `evernet.duckdns.org` and the port number available to connect is 23000. The command to open a connection to VM is then `sudo ssh root@evernet.duckdns.org -p 23000 -i id_workadventureVM` which mean the connection is via ssh as root user at address evernet.duckdns.org and port 23000 with the private key identifier id_workadventureVM. After accessing the VM, the first thing to do is checking for the updatable package for Linux Kernel and then upgrading them, just as the WSL.  
 The [Workadventure Repo](https://github.com/thecodingmachine/workadventure) is then cloned to the VM by `git clone https://github.com/thecodingmachine/workadventure.git`. As instructed in WA github repo, it is optional to add `127.0.0.1 workadventure.localhost`, `127.0.0.1 play.workadventure.localhost`, `127.0.0.1 pusher.workadventure.localhost`, and `127.0.0.1 maps.workadventure.localhost` to hosts file which is normally located in `C:\Windows\System32\drivers\etc\`.  
 Then run `cp .env.template .env` to copy and paste the .env.template file into .env file that the program will read from and then `docker-compose up` to start the program and traefik. If the program run successfully in either port 80 or 8080 of the VM, it is required to open another Ubuntu and ask for a port forwarding with the same local address between PC port 80 or 8080 to the corresponding VM port via OpenSSH command `sudo ssh root@evernet.duckdns.org -p 23000 -i id_workadventureVM -L <PC-port-number>:127.0.0.1:<VM-port-number>` with 127.0.0.1 both device local ip. For connection and traefik checking, browse to `127.0.0.1:<PC-port-number>` to see if the dashboard of traefik shows up.  
-Up to current date, the URL for the self-hosted application is not only `http://play.workadventure.localhost/` as shown in WA github instruction but `http://play.workadventure.localhost/_/maps.workadventure.localhost/starter/map.json` because the starting URL point directly to that map.json file in /maps/starter/ directory. I choose to clone my custom maps repo into /maps/ directory under the name "campusndh" and then browse to my starting map "Campus_NDH.json" via `http://play.workadventure.localhost/_/maps.workadventure.localhost/campusndh/Campus_NDH.json`. The map is now online and available for experiencing.
+Up to current date, the URL for the self-hosted application is not only `http://play.workadventure.localhost/` as shown in WA github instruction but `http://play.workadventure.localhost/_/maps.workadventure.localhost/starter/map.json` because the starting URL point directly to that map.json file in /maps/starter/ directory. The custom maps repo is cloned into /maps/ directory under the name "project_module/WA_NDH" and then browse to my starting map "Campus_NDH.json" via `http://play.workadventure.localhost/_/maps.workadventure.localhost/project_module/WA_NDH/Campus_NDH.json`. The map is now online and available for experiencing.
 
 ## 3. Evaluation
 ### 3.1. Maps validation with public server (github server)
 The custom maps work perfectly as I intended. The individual conversation and jitsi rooms take some time to load but it might be internet problem.
-### 3.2. Maps validation with private server  
-#### 3.2.1. Configure private server with Virtual Machine**
-The biggest problem for this task is I wasn't familiar with Linux Kernel and Interface (Ubuntu) at all so some actions are a bit tricky to do and there are a lot of new commands to learn and remember which up to current date I still have some trouble understanding. With the OpenSSH connection, which I don't understand the connection request at first what the initials meaning are, e.g. what is -i, what is -L, etc. The second biggest problem with the application is that WA is an improvable and upgradable application, so the publisher 
-#### 3.2.2. Maps validation with Virtual Machine**  
-
+### 3.2. Maps validation with private server 
+The first thing to be tested via the Workadventure instruction is the Traefik dashboard at `http://traefik.workadventure.localhost/`.  
+![image](https://github.com/ginhavana/WA_NDH/assets/66717834/89bd1ff1-3d29-4307-b793-44217332180b)  
+It is difficult to understand all the names and numbers, however, all the stats are showing success, which indicates that the app is online and should be running seamlessly on port 80.
+The url `http://play.workadventure.localhost/_/maps.workadventure.localhost/project_module/WA_NDH/Campus_NDH.json` leads users directly to the main map "Campus"
+![image](https://github.com/ginhavana/WA_NDH/assets/66717834/77dba5b6-235e-409e-a290-6d14bdd0e66d)
+and the server log will show a request and report for joining from users similar as follow:
+![image](https://github.com/ginhavana/WA_NDH/assets/66717834/4f1089fa-7907-4117-935e-73c282268613)
+Each map is considered a room, which means each time a user left the current map to another map, the server will show a report that user has left the room and rejoin another room as follow:
+![image](https://github.com/ginhavana/WA_NDH/assets/66717834/a1ef38d0-341e-4ba0-98c1-3d0c4da222f6)
+![image](https://github.com/ginhavana/WA_NDH/assets/66717834/e309267d-c4dd-437f-a6a4-d02e06b748d0)
+If all users left the current map, the server will report that the room is empty and will be deleted in the hosting process. This indicates that if any user return to the deleted map, the room is created and hosted again.
+There is no stats of the internet speed for each joining individual users or the actual capacity of the server, however during the execution of this project, it is possible for the server to host up to 10 devices in the same time without recognisable delay.
 ## 4. Summary and Conclusion  
 ### 4.1. Summary of results
-
+The result shows proofs of the accurate abilities that Workadventure team advertised. It also shows the high posibility to create a learning environment (for now up to at least one seminar) that can be hosted totally by the campus with further configuration.
 ### 4.2. Lessons learn
-
+The project provides an experience for using and managing software with Unix Operating System, along with a chance to learn and verify the new direction of communication technology, which is online meeting via custom enviroment that resembles actual enviroment. The project also show the need of improving communicating skills in order to seek for and troubleshoot the problems occur during the execution within programmers, software providers and advisors.
 ### 4.3. Future development
+For future development, it is recommend that developers/programmers focus on configurating all the required attribute of the software, in addition to implementing the securing method for the custom hosted server. The lower priority for the further development is finishing and optimizing the maps that resemble the campus.
