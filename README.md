@@ -135,8 +135,8 @@ After finishing customizing maps, all maps and related files will be uploaded to
     
 | Line | Original code | Replace code |
 | - | - | - |
-| 22 | const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`; | cconst url = `https://play.workadventu.re/_/${instanceId}/${host}${path}Campus_NDH.json`; |
-| 27 | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json'; | const jsonURL = window.location.protocol + '//' + window.location.host + path + 'Campus_NDH.json'; |
+| 22 | `const url = 'https://play.workadventu.re/_/${instanceId}/${host}${path}map.json';` | `const url = 'https://play.workadventu.re/_/${instanceId}/${host}${path}Campus_NDH.json';` |
+| 27 | `const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json';` | `const jsonURL = window.location.protocol + '//' + window.location.host + path + 'Campus_NDH.json';` |
 
 Then go to **Setting** in the tools bar, go to **Pages** and change source from `root` to `docs` and press **Save**. There is a notice direct to the test web UI which has form **`<username>.github.io.<repo-name>`**.  
 
