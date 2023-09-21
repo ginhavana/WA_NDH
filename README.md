@@ -21,7 +21,9 @@
 4. Summary and Conclusion  
   4.1. Summary of results  
   4.2. Lessons learn  
-  4.3. Future potential for development  
+  4.3. Future potential for development
+5. Referennces
+  5.1. 
 
 ## 1. Introduction
 ### 1.1. Overview  
@@ -182,6 +184,7 @@ Each map is considered a room, which means each time a user left the current map
 ![image](https://github.com/ginhavana/WA_NDH/assets/66717834/e309267d-c4dd-437f-a6a4-d02e06b748d0)
 If all users left the current map, the server will report that the room is empty and will be deleted in the hosting process. This indicates that if any user return to the deleted map, the room is created and hosted again.
 There is no stats of the internet speed for each joining individual users or the actual capacity of the server, however during the execution of this project, it is possible for the server to host up to 10 devices in the same time without recognisable delay.
+
 ## 4. Summary and Conclusion  
 ### 4.1. Summary of results
 The result shows proofs of the accurate abilities that Workadventure team advertised. It also shows the high posibility to create a learning environment (for now up to at least one seminar) that can be hosted totally by the campus with further configuration.
@@ -189,3 +192,10 @@ The result shows proofs of the accurate abilities that Workadventure team advert
 The project provides an experience for using and managing software with Unix Operating System, along with a chance to learn and verify the new direction of communication technology, which is online meeting via custom enviroment that resembles actual enviroment. The project also show the need of improving communicating skills in order to seek for and troubleshoot the problems occur during the execution within programmers, software providers and advisors.
 ### 4.3. Future development
 For future development, it is recommend that developers/programmers focus on configurating all the required attribute of the software, in addition to implementing the securing method for the custom hosted server. The lower priority for the further development is finishing and optimizing the maps that resemble the campus.
+
+## 5. References
+  WorkAdventure | Getting started. (n.d.). https://docs.workadventu.re/map-building/build-your-map.md
+  W. (n.d.). GitHub - workadventure/workadventure: A collaborative web application (virtual office) presented as a 16-bit RPG video game. GitHub. https://github.com/workadventure/workadventure
+  Mal Dir Deine Welt mit WorkAdventure – Ein Erfahrungsbericht. (n.d.). https://www.adesso.de/de/news/blog/mal-dir-deine-welt-mit-workadventure-ein-erfahrungsbericht.jsp
+  M. (2021, April 4). #DiVOC R2R - Workadventure selbst betreiben: Ein Serviervorschlag. YouTube. https://www.youtube.com/watch?v=J0h_CcO3aMo
+  D. (2021, April 3). Workadventure selbst betreiben: Ein Serviervorschlag. https://media.ccc.de/v/divoc-reboot-to-respawn-2021-39-workadventure-selbst-betreiben-ein-serviervorschlag
