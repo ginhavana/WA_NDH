@@ -193,8 +193,8 @@ The project provides an experience for using and managing software with Unix Ope
 For future development, it is recommend that developers/programmers focus on configurating all the required attribute of the software, in addition to implementing the securing method for the custom hosted server. The lower priority for the further development is finishing and optimizing the maps that resemble the campus.
 
 ## 5. References
-  - WorkAdventure | Getting started. (n.d.). https://docs.workadventu.re/map-building/build-your-map.md
-  - W. (n.d.). GitHub - workadventure/workadventure: A collaborative web application (virtual office) presented as a 16-bit RPG video game. GitHub. https://github.com/workadventure/workadventure
-  - Mal Dir Deine Welt mit WorkAdventure – Ein Erfahrungsbericht. (n.d.). https://www.adesso.de/de/news/blog/mal-dir-deine-welt-mit-workadventure-ein-erfahrungsbericht.jsp
-  - M. (2021, April 4). #DiVOC R2R - Workadventure selbst betreiben: Ein Serviervorschlag. YouTube. https://www.youtube.com/watch?v=J0h_CcO3aMo
-  - D. (2021, April 3). Workadventure selbst betreiben: Ein Serviervorschlag. https://media.ccc.de/v/divoc-reboot-to-respawn-2021-39-workadventure-selbst-betreiben-ein-serviervorschlag
+- WorkAdventure | Getting started. (n.d.). https://docs.workadventu.re/map-building/build-your-map.md
+- W. (n.d.). GitHub - workadventure/workadventure: A collaborative web application (virtual office) presented as a 16-bit RPG video game. GitHub. https://github.com/workadventure/workadventure
+- Mal Dir Deine Welt mit WorkAdventure – Ein Erfahrungsbericht. (n.d.). https://www.adesso.de/de/news/blog/mal-dir-deine-welt-mit-workadventure-ein-erfahrungsbericht.jsp
+- M. (2021, April 4). #DiVOC R2R - Workadventure selbst betreiben: Ein Serviervorschlag. YouTube. https://www.youtube.com/watch?v=J0h_CcO3aMo
+- D. (2021, April 3). Workadventure selbst betreiben: Ein Serviervorschlag. https://media.ccc.de/v/divoc-reboot-to-respawn-2021-39-workadventure-selbst-betreiben-ein-serviervorschlag
