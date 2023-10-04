@@ -12,7 +12,7 @@
     - 2.2.3. Mensa map
     - 2.2.4. Audimax map
     - 2.2.5. Seminar map  
-  2.3. Public and private map hosting  
+2.3. Public and private map hosting  
     - 2.3.1. Public hosting
     - 2.3.2. Private hosting
 3. Evaluation (comments and reviews)  
