@@ -110,7 +110,7 @@ There are 3 separated Jitsi instances for 3 tables in reception section and 3 Ji
 #### 2.2.3. Mensa map
 The third map, whose entrance is at the top left of Campus map, is **Mensa** map
 
-<img src="https://user-images.githubusercontent.com/66717834/171282241-86ab3acc-6aeb-445e-bbbf-9054673320f2.png" alt="Mensa" width="500">
+<img src="https://github.com/ginhavana/WA_NDH/assets/66717834/f8c5fde2-91f1-4373-8c09-9afb4bff371b" alt="Mensa" width="500">
 
 This map contains a lot of small tables, for each a corresponding Jitsi instance is given.
 
